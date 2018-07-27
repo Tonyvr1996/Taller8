@@ -13,6 +13,10 @@ import Creacional.FactoryGuiaRemisionOffline;
 import Creacional.FactoryGuiaRemisionOnline;
 import Creacional.FactoryNotaCreditoOffline;
 import Creacional.FactoryNotaCreditoOnline;
+import Creacional.Factura;
+import Estructural.Adicionales;
+import Estructural.Imagen;
+import Estructural.Lema;
 
 /**
  *
@@ -50,7 +54,12 @@ public class Main {
         ComprobanteElectronicoAbstractFactory c6=new FactoryNotaCreditoOffline();
         FacturadorElectronico e6=new FacturadorElectronico(c6);
         System.out.println("");
-                    
+        
+                          /*Agregamos la imagen del logo*/
+        Adicionales comprobanteElectronico=new Factura();      
+        comprobanteElectronico=new Imagen(comprobanteElectronico);
+        System.out.println(comprobanteElectronico.descripcion());
+        
     }
 
 }

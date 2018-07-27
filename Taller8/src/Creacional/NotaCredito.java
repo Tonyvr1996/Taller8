@@ -100,6 +100,8 @@ public class NotaCredito extends ComprobanteElectronico{
         ComprobanteElectronico.claveAcceso = claveAcceso;
     }
     
-    
+    public String getDescripcion(){
+        return "Nota de Crédito";
+    }
     
 }

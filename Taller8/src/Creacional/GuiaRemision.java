@@ -90,6 +90,9 @@ public class GuiaRemision extends ComprobanteElectronico {
         ComprobanteElectronico.claveAcceso = claveAcceso;
     }
     
+    public String getDescripcion(){
+        return "Guia Remision";
+    }
     
     
 }

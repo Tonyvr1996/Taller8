@@ -103,6 +103,8 @@ public class Factura extends ComprobanteElectronico {
         ComprobanteElectronico.claveAcceso = claveAcceso;
     }
 
-    
+    public String getDescripcion(){
+        return "Factura";
+    }
     
 }

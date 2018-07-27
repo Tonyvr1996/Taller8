@@ -6,18 +6,24 @@
 package Estructural;
 
 import Creacional.ComprobanteElectronico;
+import Creacional.ComprobanteElectronicoDecorator;
 
 /**
  *
  * @author Tony
  */
-public class Imagen extends ComprobanteElectronico {
+public class Imagen extends ComprobanteElectronicoDecorator {
     
     public Imagen(Adicionales a){
         super(a);
     }
     
     public String getImagen(){
+        return "Imagen establecida correctamente";
+    }
+
+    @Override
+    public String descripcion() {
         return "Imagen establecida correctamente";
     }
     

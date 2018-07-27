@@ -6,12 +6,13 @@
 package Estructural;
 
 import Creacional.ComprobanteElectronico;
+import Creacional.ComprobanteElectronicoDecorator;
 
 /**
  *
  * @author Tony
  */
-public class Lema extends ComprobanteElectronico {
+public class Lema extends ComprobanteElectronicoDecorator {
     
     public Lema(Adicionales a){
         super(a);
@@ -19,5 +20,11 @@ public class Lema extends ComprobanteElectronico {
     
     public String getDescripcion(){
         return "Ni un paso atrás";
+    }
+
+    @Override
+    public String descripcion() {
+        return "Ni un paso atrás";
+
     }
 }
