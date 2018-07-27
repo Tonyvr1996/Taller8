@@ -7,7 +7,7 @@ package Estructural;
 
 /**
  *
- * @author Yoselin
+ * @author Tony
  */
 public interface Adicionales {
     public String descripcion();

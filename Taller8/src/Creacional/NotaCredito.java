@@ -10,7 +10,7 @@ import Estructural.Adicionales;
 
 /**
  *
- * @author Yoselin
+ * @author Tony
  */
 public class NotaCredito extends ComprobanteElectronico{
     private String cliente;

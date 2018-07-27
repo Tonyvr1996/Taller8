@@ -7,7 +7,7 @@ package Creacional;
 
 /**
  *
- * @author Yoselin
+ * @author Tony
  */
 public abstract class Esquema {
     private String modoEsquema;

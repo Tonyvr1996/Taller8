@@ -11,7 +11,7 @@ import Estructural.Adicionales;
 
 /**
  *
- * @author Yoselin
+ * @author Tony
  */
 public class Factura extends ComprobanteElectronico {
     private String nombreCliente;

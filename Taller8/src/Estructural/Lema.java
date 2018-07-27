@@ -9,7 +9,7 @@ import Creacional.ComprobanteElectronico;
 
 /**
  *
- * @author Yoselin
+ * @author Tony
  */
 public class Lema extends ComprobanteElectronico {
     

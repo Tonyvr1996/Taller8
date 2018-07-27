@@ -10,7 +10,7 @@ import Estructural.Adicionales;
 
 /**
  *
- * @author Yoselin
+ * @author Tony
  */
 public class ComprobanteElectronico implements Cloneable,Adicionales{
     private String detallesEmisor;

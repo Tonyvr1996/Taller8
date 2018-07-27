@@ -11,7 +11,7 @@ import Estructural.Adicionales;
 
 /**
  *
- * @author Yoselin
+ * @author Tony
  */
 public class GuiaRemision extends ComprobanteElectronico {
     private String destino;

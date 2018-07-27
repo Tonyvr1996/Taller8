@@ -7,7 +7,7 @@ package Creacional;
 
 /**
  *
- * @author Yoselin
+ * @author Tony
  */
 public class FactoryGuiaRemisionOffline extends ComprobanteElectronicoAbstractFactory{
 
