@@ -50,15 +50,17 @@ public class Main {
         ComprobanteElectronicoAbstractFactory c5=new FactoryNotaCreditoOnline();
         FacturadorElectronico e5= new FacturadorElectronico(c5);
         System.out.println("");
-                            //Offline
+                            //Offline 
         ComprobanteElectronicoAbstractFactory c6=new FactoryNotaCreditoOffline();
         FacturadorElectronico e6=new FacturadorElectronico(c6);
         System.out.println("");
         
-                          /*Agregamos la imagen del logo*/
+        
+                          /*Agregamos la imagen del logo */
         Adicionales comprobanteElectronico=new Factura();      
         comprobanteElectronico=new Imagen(comprobanteElectronico);
         System.out.println(comprobanteElectronico.descripcion());
+        
         
     }
 
